@@ -3,14 +3,6 @@ body {
     font-family: arial;
     color: white;
 }
-body {
-    display: flex;
-    justify-content: center; /* centers horizontally */
-    align-items: center;     /* centers vertically */
-    min-height: 100vh;       /* full screen height */
-    flex-direction: column;  /* stack items top to bottom */
-    text-align: center;
-}
 
 h1 {
     color: grey;
