@@ -2,6 +2,14 @@ body {
     background-color: black;
     font-family: arial;
     color: white;
+
+    /* Center content */
+    display: flex;
+    flex-direction: column;   /* stack main content + footer */
+    justify-content: center;  /* center vertically */
+    align-items: center;      /* center horizontally */
+    min-height: 100vh;        /* full height of screen */
+    margin: 0;
 }
 
 h1 {
@@ -16,4 +24,11 @@ h1 {
     padding: 20px;
     border-radius: 25px;
     text-align: center;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5); /* optional nice shadow */
+}
+
+footer {
+    margin-top: 20px; /* spacing below the box */
+    color: grey;
+    font-size: 0.9em;
 }
